@@ -1,7 +1,7 @@
 pkgbase = pdfminer
 	pkgdesc = python utils to extract, analyze text data of PDF files.
 	pkgver = 20140328
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.unixuser.org/~euske/python/pdfminer/
 	arch = any
 	license = MIT/X
