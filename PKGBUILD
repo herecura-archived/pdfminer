@@ -3,17 +3,14 @@
 
 pkgname=pdfminer
 pkgver=20140328
-pkgrel=2
+pkgrel=3
 pkgdesc="python utils to extract, analyze text data of PDF files."
 arch=('any')
 url="http://www.unixuser.org/~euske/python/pdfminer/"
 license=('MIT/X')
-groups=()
 depends=('python2')
-backup=()
-options=()
-install=
 source=("http://pypi.python.org/packages/source/p/pdfminer/${pkgname}-${pkgver}.tar.gz")
+sha256sums=('ba187b93056586a14edd5e630cf63ae96b1cc84b611f55dcddbc997316d9f262')
 
 package() {
   cd "${pkgname}-${pkgver}"
@@ -27,4 +24,3 @@ package() {
   rm -rf "${pkgdir}/usr/lib/python"
 }
 
-sha256sums=('ba187b93056586a14edd5e630cf63ae96b1cc84b611f55dcddbc997316d9f262')
